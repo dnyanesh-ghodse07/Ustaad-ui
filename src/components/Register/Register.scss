@@ -1,0 +1,27 @@
+.register {
+  background: lightseagreen;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+  .left {
+    background-color: rgb(9, 139, 129);
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    color: aliceblue;
+    h2 {
+      color: aliceblue;
+    }
+  }
+  .register__form {
+    background: aliceblue;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+}

@@ -1,0 +1,39 @@
+.home {
+  background: lightseagreen;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  .home__brand {
+    color: aliceblue;
+    font-size: 80px;
+    border-bottom: 4px solid;
+  }
+  .home__banner {
+    width: 300px;
+    img {
+      width: 400px;
+    }
+  }
+  .home__login {
+    background: aliceblue;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+}
+
+@media (max-width: 680px) {
+  .home {
+    align-items: center;
+    .home__banner {
+      display: none;
+    }
+    .home__login {
+      width: 99vw;
+      height: 99vh;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+  }
+}
